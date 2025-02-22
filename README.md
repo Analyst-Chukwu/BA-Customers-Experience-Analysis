@@ -6,7 +6,7 @@
 
 ## About the Company/Task:
 British Airways has been in Business for 50 years (1974 – current). Over these years more than 1000 airlines have sprung up and are in operation. Within these numbers, more than 30 airlines are major global carriers and are in direct competition with BA, 50+ airlines are low cost carriers, and numerous regional and niche airlines competing on specific routes. 
-The nagging question for BA, then becomes, how do we stay above competition curve?
+The nagging question for BA, then becomes, how to stay above competition curve?
 
 ## What is the business problem?
 BA, like every business understands that customers are king. Even though BA leadership might believe they have good products and services, do customers see their good products and services as good?  
