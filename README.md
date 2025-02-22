@@ -12,9 +12,12 @@ The nagging question for BA, then becomes, how do we stay above competition curv
 BA, like every business understands that customers are king. Even though BA leadership might believe they have good products and services, do customers see their good products and services as good?  
 ## The Business Task:
 I was, therefore, as a data scientist at BA, (for this virtual internship with forage), tasked with:
-###1: Analyzing BA customers' online reviews of their products and services. 
-###2: Understanding their customer's feelings, needs, and their position towards BA.
-###3: Offer recommendations to BA leadership in order to help BA with their business decisions and to better reposition their services.
+
+1: Analyzing BA customers' online reviews of their products and services. 
+
+2: Understanding their customer's feelings, needs, and their position towards BA.
+
+3: Offer recommendations to BA leadership in order to help BA with their business decisions and to better reposition their services.
 ## The Process:
 1.  Data sourcing: Data was gotten from skytrax, a leading airline and airport evaluation system, using web scrapping tool—BeautifulSoup in python. 
 2.  Data Cleaning: 
