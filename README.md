@@ -9,7 +9,7 @@ British Airways has been in Business for 50 years (1974 – current). Over these
 The nagging question for BA, then becomes, how to stay above competition curve?
 
 ## What is the business problem?
-BA, like every business understands that customers are king. Even though BA leadership might believe they have good products and services, do customers see their good products and services as good?  
+BA, like every business understands that customers are king. Even though BA leadership might believe they have good products and services, do customers feel same way?  
 ## The Business Task:
 I was, therefore, as a data scientist at BA, (for this virtual internship with forage), tasked with:
 
