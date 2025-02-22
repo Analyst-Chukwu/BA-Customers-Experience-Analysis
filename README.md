@@ -5,15 +5,21 @@
 #### Dashboard link: https://app.powerbi.com/links/r_9MXwogYL?ctid=be79a6fa-8c7c-4bf1-ac17-28812dae73b8&pbi_source=linkShare
 
 ## About the Company/Task:
-British Airways (BA) is the flag carrier airline of the United Kingdom (UK). Every day, thousands of BA flights arrive to and depart from the UK, carrying customers across the world. Whether it’s for holidays, work or any other reason, the end-to-end process of scheduling, planning, boarding, fueling, transporting, landing, and continuously running flights on time, efficiently and with top-class customer service is a huge task with many highly important responsibilities.
+British Airways has been in Business for 50 years (1974 – current). Over these years more than 1000 airlines have sprung up and are in operation. Within these numbers, more than 30 airlines are major global carriers and are in direct competition with BA, 50+ airlines are low cost carriers, and numerous regional and niche airlines competing on specific routes. 
+The nagging question for BA, then becomes, how do we stay above competition curve?
+
 ## What is the business problem?
-Every day, thousands of BA flights arrive to and depart from the UK, carrying customers across the world. BA wants to understand their customer service and what their customers’ positions towards them are.
+BA, like every business understands that customers are king. Even though BA leadership might believe they have good products and services, do customers see their good products and services as good?  
 ## The Business Task:
-As a data scientist at BA, (for this virtual internship with forage), I was tasked with understanding their customer's feelings, needs, in order to help BA with their business decisions and better reposition of their services.
+I was, therefore, as a data scientist at BA, (for this virtual internship with forage), tasked with:
+###1: Analyzing BA customers' online reviews of their products and services. 
+###2: Understanding their customer's feelings, needs, and their position towards BA.
+###3: Offer recommendations to BA leadership in order to help BA with their business decisions and to better reposition their services.
 ## The Process:
 1.  Data sourcing: Data was gotten from skytrax, a leading airline and airport evaluation system, using web scrapping tool—BeautifulSoup in python. 
 2.  Data Cleaning: 
-•	Sentimental Analysis was done using NLTK model, and Topic modelling to generate topics from the reviews was done using BERTopic model, all in Python. 
+•	Sentimental Analysis was donein python using NLTK model to categorize each customers reviews into either positive, neutral, negative based on their sentiments score.
+•  Topic modelling was done to generate topics from the reviews using BERTopic model, all in Python. 
 •	Further Exploratory Data Analysis was conducted using Microsoft SQL Server.
 •	Null values where removed.
 •	  Data was checked for duplicate
@@ -39,11 +45,11 @@ As a data scientist at BA, (for this virtual internship with forage), I was task
 
 •	Service, aircraft, legroom, in-flight entertainment, cost,  for negative reviews
 
-•	Of course the topic SERVICE can encompass flight crew’s and BA staff’s attitude and their disposition to be of service, and food. 
+•	the Topic "SERVICE" encompasses quality of food, and the flight crew’s and BA staff’s attitude and their disposition to customers. 
 
 •	People were also concerned about the state of the aircraft; their safety. While new aircrafts have high positive score, old aircrafts have negative.
 
-•	Much complaints comes from little or no legroom, and poor and limited choice of inflight entertainment.
+•	Much complaints come from little or no legroom, and poor and limited choice of inflight entertainment.
 
 # RECOMMENDATIONS:
 1.	That BA have a periodic training for their staff and flight crews across all locations as the top reoccurring topic in all categories is SERVICE. Also the complaint on COST, and AIRCRAFT will be reduced drastically if customers get value for their money in terms on how they were treated during flight.
